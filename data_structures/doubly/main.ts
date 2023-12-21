@@ -15,7 +15,7 @@ class DoublyLinkedList<T> {
 
     constructor() { }
 
-    // Append
+    //Append
     append(value: T) {
         const newNode = new ListNode(value);
         if (!this.head) {
@@ -87,5 +87,4 @@ myList.append(45);
 myList.append(55);
 myList.append(65);
 myList.append(75);
-
 myList.unshift(1);
